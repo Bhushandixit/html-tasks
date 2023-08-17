@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js"></script>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 20px;
+            margin: 10px;
+            width: 20%;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb(218, 218, 218);
+        }
+
+        #newHead {
+            border: 2px solid green;
+            margin: 20px;
+            padding: 30px;
+
+        }
+
+        .container {
+            background-color: rgb(235, 235, 235);
+            border: 2px dashed grey;
+            text-align: center;
+            font-size: 25px;
+            padding: 1%;
+            margin: 5%;
+        }
+
+        .para {
+            background-color: rgb(0, 158, 79);
+            margin: 3%;
+            padding: 4%;
+            margin-top: 1%;
+            padding-top: 1%;
+        }
+
+        .paddingSec {
+            background-color: rgb(235, 235, 235);
+            margin-top: 1%;
+            padding-top: 1%;
+            padding-left: 4%;
+            padding-right: 4%;
+            padding-bottom: 5%;
+        }
+
+        .content {
+            background-color: white;
+            padding: 8%;
+            margin-top: 1%;
+            border: 2px dashed grey;
+        }
+
+        a {
+            color: purple;
+            text-decoration: none;
+            border: 2px solid red;
+            font-size: 60px;
+        }
+
+        a:hover {
+            color: white;
+            background-color: black;
+            text-align: justify;
+        }
+
+        @media screen and (max-width: 600px) {
+            div.example {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <del>
+        <ins>
+            <i>
+                <h1 style="color: tomato;text-align: center;" id="heading">Hello World</h1>
+            </i>
+        </ins>
+    </del>
+    <button onclick="document.getElementById('heading').innerHTML='Hello John'">Change</button>
+
+
+
+
+
+
+
+
+
+
+
+    <p><b>Lorem ipsum dolor, sit amet consectetur adipisicing</b> elit.
+        Voluptas cum <em> repellendus </em>dolores <strong>quos</strong> necessitatibus
+        <i> fuga autem quidem consequuntur similique?Lorem, ipsum dolor sit amet consectetur adipisicing elit.</i> Odio
+        fugit, error atque, <ins>dolores dignissimos <b>perspiciatis <del><i>natus</i></del></b> nesciunt</ins>
+        facilis excepturi maiores nulla quae ipsa, incidunt earum rem hic doloribus corporis magnam.
+        Lorem ipsum dolor sit amet,<mark> consectetur adipisicing elit.</mark> Tempora, dignissimos
+        repellendus eligendi dolore <del>numquam vel</del> laudantium hic consectetur omnis accusantium.
+        <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam dicta nam eum earum, id vero.
+            Mollitia
+            voluptatibus </small>
+        dolorem at recusandae dolorum nisi unde, iusto eligendi sit
+        dolor quos fuga obcaecati <sup>optio</sup> temporibus <sub>amet totam </sub>quibusdam quisquam ad quo
+        <i>consequuntur? Quam.</i>
+
+    </p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">Lorem ipsum dolor sit, amet
+        consectetur adipisicing elit.
+        Aut id, voluptas eaque sunt temporibus
+        maiores unde nobis ab dignissimos similique
+        vel officiis reprehenderit eos omnis odio nostrum impedit maxime quas suscipit atque quae ipsam eius praesentium
+        quo! Deserunt debitis tempora odit dignissimos commodi? Voluptates mollitia at saepe nesciunt? Sed, praesentium?
+    </blockquote>
+    <strong> Citing Non-Standard Author Categories</strong>
+    <q> <i>A WORK BY TWO AUTHORS</i></q>
+    <blockquote>Name both authors in the signal phrase or in parentheses each time you cite the work. Use the word "and"
+        between the
+        authors' names within the text and use the ampersand in parentheses.
+    </blockquote>
+    <h2>My address is :</h2>
+    <address style="border: 3px solid green; background-color: yellow; color: brown;">
+        Omkar Colony,<br>
+        VijayNagar, Kalewadi <br>
+        Pimpri-Chinchwad <br>
+        Pune - 411017 <br>
+        Society Drop
+    </address>
+    <h2><cite title="Doctor">DR.</cite>Dominic Vance</h2>
+    <bdo dir="rtl">Ambulance </bdo>
+    <h4 style="color: rgb(182, 129, 255);">RGB COLOR</h4>
+    <hr>
+
+    <h1>Task 2</h1>
+
+    <a href="" style="color: aqua; font-size: 30px;background-color: black;">Hi I am link 1</a>
+    <a href="" style="color: rgb(0, 0, 0); font-size: 30px;">Hi I am link 1</a>
+    <p>Make Image as a Link</p>
+    <a href="https://www.youtube.com"><img src="https://picsum.photos/200/300" alt=""></a>
+    <h1 style="text-align: center;border: 2px dashed darkblue;background-color: lightcoral; margin: 15%; padding: 2%;">
+        Hi I am border
+    </h1>
+    <hr>
+    <h1>Combine Task of HTML</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Company</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>29</td>
+            <td>Meta</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>39</td>
+            <td>Facebook</td>
+        </tr>
+        <tr>
+            <td>Joeshpine Langford</td>
+            <td>28</td>
+            <td>Google</td>
+        </tr>
+        <tr>
+            <td>Justin Foley</td>
+            <td>25</td>
+            <td>Adobe</td>
+        </tr>
+        <tr>
+            <td>Carl Johnson</td>
+            <td>34</td>
+            <td>Microsoft</td>
+        </tr>
+    </table>
+
+    <table id="newTable">
+        <tr>
+            <th>Name</th>
+            <td>John Doe</td>
+            <td>Jane Smith</td>
+            <td>Joeshpine Langford</td>
+            <td>Carl Johnson</td>
+            <td>Justin Foley</td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td>39</td>
+            <td>34</td>
+            <td>28</td>
+            <td>39</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <th>Company</th>
+            <td>Google</td>
+            <td>Adobe</td>
+            <td>Microsoft</td>
+            <td>Facebook</td>
+            <td>Meta</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>Smith</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Dominic</td>
+            <td>Torreto</td>
+            <td>26</td>
+        </tr>
+        <tr>
+            <td>Cyrus</td>
+            <td>Fane</td>
+            <td>29</td>
+        </tr>
+    </table>
+
+    <ul>
+        <li>Fruits</li>
+        <ul>
+            <li>Apple</li>
+            <ol>
+                <li>Green Apple</li>
+            </ol>
+            <li>Banana</li>
+            <li>Peach</li>
+            <li>Plums</li>
+        </ul>
+        <li>Chips</li>
+        <ul>
+            <li>Chipotle Chips</li>
+            <ul>
+                <li>Spicy</li>
+
+            </ul>
+            <li>Doritos</li>
+            <ul>
+                <li>Wasabi</li>
+                <ol>
+                    <li>Red Wasabi</li>
+                </ol>
+            </ul>
+        </ul>
+        <li>Snacks</li>
+        <li>Cold Drinks</li>
+        <li>Tea</li>
+        <li>Sugar</li>
+    </ul>
+
+    <ol type="I">
+        <li>Vegetables</li>
+        <ol type="1">
+            <li>Cauliflower</li>
+            <li>Cabbage</li>
+            <li>Spinach</li>
+        </ol>
+        <li>Spices</li>
+        <li>Cereals</li>
+        <ol type="A">
+            <li>Toys</li>
+            <ol type="i">
+                <li>Soft Toys</li>
+                <ul>
+                    <li>Plushies</li>
+                </ul>
+            </ol>
+        </ol>
+    </ol>
+    <iframe src="index.html" frameborder="0"></iframe>
+    <hr>
+    <h1 id="newHead">I have margin and paddding</h1>
+    <h1>I am Box Model Designed With Classes and Id in External File</h1>
+    <div class="container">
+        Margin
+        <div class="para">Border
+            <div class="paddingSec">Padding
+                <div class="content">Content</div>
+            </div>
+        </div>
+
+    </div>
+
+    <hr>
+    <div>
+        <a href="">New Link </a> <br>
+        <a href="">Link with Border</a><br>
+
+        <h1 style="font-family: cursive;">This is cursive </h1>
+        <h2 style="font-family: 'Courier New', Courier, monospace;">This is monospace</h2>
+        <h4 style="direction: rtl; unicode-bidi: bidi-override;">AMBULANCE</h4>
+        <h5 style="text-align: right">Text is aligned to Right</h5>
+        <p style="text-transform: capitalize;">This Text is capitalized</p>
+
+        <h6 style="text-decoration: overline underline line-through;font-size: 30px;">Text Decoration</h6>
+
+        <p style="text-indent: 20px;line-height: 30px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Voluptatem tempora vero
+            mollitia laboriosam provident magnam ipsum quisquam voluptatibus, ipsa, at quae dicta repellat cum. Dolore
+            cumque iusto ducimus ex dolor eum qui beatae aperiam maiores fuga explicabo culpa atque
+            labore minus natus aut ratione non quia, voluptates eaque nesciunt temporibus?</p>
+
+        <h3 style="letter-spacing: 9px;">Letter spacing</h3>
+
+        <p style="white-space: normal;">NO WRAP
+            NO WRAPNO WRAPNO WRAPNO WRAPNO WRAPNO WRAPNO WRAPNO WRAPNO WRAPNO WRAPNO WRAPNO WRAPNO WRAP
+        </p>
+        <h2 style="text-shadow: 2px 2px 6px black; color: aliceblue;font-size: 45px;">Text Shadow</h2>
+        <h2 style="font-size: 55px;text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF, 0 0 6px greenyellow;">Neon Color</h2>
+
+    </div>
+    <form action="">
+        <label>First Name</label>
+        <input type="text" id="firstName">
+        <br><br>
+        <label>Last Name</label>
+        <input type="text" style="margin-left: 20px;">
+        <br><br>
+        <label>Phone Number</label>
+        <input type="number">
+        <br><br>
+        <label for="sex">Gender</label><br><br>
+        <label for="sex">Male</label> <input type="radio">
+        <label for="sex">Female</label> <input type="radio"><br><br>
+        <label for="skills">Skillset</label><br><br>
+        <label for="sex">Html</label> <input type="checkbox">
+        <label for="sex">Css</label> <input type="checkbox">
+        <label for="sex">JS</label><input type="checkbox">
+        <label for="sex">PHP</label> <input type="checkbox"><br><br>
+        <input type="submit" value="submit">
+    </form>
+
+    <form style="margin-top: 5em;">
+        <fieldset>
+            <legend style="text-align: center; margin-bottom: 2em;">User Form </legend>
+            <label>First Name</label>
+            <input type="text" id="firstName">
+            <br><br>
+            <label>Last Name</label>
+            <input type="text" style="margin-left: 20px;">
+            <br><br>
+            <label>Phone Number</label>
+            <input type="number">
+            <br><br>
+            <textarea name="" id="" cols="30" rows="10">The is playing in the garder</textarea>
+            <br><br>
+            <label for="">Select The Cars:</label>
+            <select name="cars" id="">
+                <option value="">Lamborghini</option>
+                <option value="">Mazda</option>
+                <option value="">Nexus</option>
+                <option value="">Porsche</option>
+                <option value="">Mustang</option>
+            </select>
+            <br><br>
+            <label for="">Select Multiple The Cars:</label>
+            <select name="cars" id="" size="4" multiple>
+                <option value="">Lamborghini</option>
+                <option value="">Mazda</option>
+                <option value="">Nexus</option>
+                <option value="">Porsche</option>
+                <option value="">Mustang</option>
+            </select>
+            <br><br>
+            <label for="">Select browsers</label>
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+        </fieldset>
+
+        <input type="button" value="Button">
+        <br><br>
+        <label for="">Choose a Color</label>
+        <input type="color">
+        <label for="">Choose a Date </label>
+        <input type="date">
+        <br><br>
+        <label for="">Choose Date and time</label>
+        <input type="datetime">
+        <br><br>
+        <label for="">Enter Your Email</label>
+        <input type="email">
+        <br><br>
+        <label for="">Choose a file</label>
+        <input type="file">
+        <br><br>
+        <label for="">Choose a Month</label>
+        <input type="month">
+        <br><br>
+        <label for="">Choose a range</label>
+        <input type="range">
+        <br><br>
+        <label for="">Choose a Week</label>
+        <input type="week">
+        <br><br>
+        <input type="text" value="John Doe" readonly>
+        <br>
+        <input type="number" value="1010101010" disabled>
+        <input type="submit">
+        <br>
+        <input type="reset" name="" id="">
+    </form>
+
+    <div class="example">Example DIV.</div>
+    <div class="media" style="margin-top: 2%;">
+        <div class="large" style="border: 1px solid black;padding: 3%;margin-bottom: 5%;background-color: aqua;">
+            I am Tablet view div
+        </div>
+        <div class="xlarge" style="border: 1px solid black;padding: 3%;margin-bottom: 5%;background-color: blue;">
+            I am Larger View Div
+        </div>
+        <div class="xxlarge" style="border: 1px solid black;padding: 3%;margin-bottom: 5%;background-color: burlywood;">
+            I am Laptop View DIv
+        </div>
+    </div>
+</body>
+
+</html>
